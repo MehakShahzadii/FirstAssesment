@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fifth_page"
+    android:background="@color/teal_700"
+    android:padding="24dp">
+
+    <RadioGroup
+        android:id="@+id/ninthquestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_question"
+        android:layout_marginTop="@dimen/marginTop"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/firstquestion"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/Q_1a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q_1a"
+            android:textColor="@color/black"
+
+            android:textSize="@dimen/textsize" />
+
+        <RadioButton
+            android:id="@+id/Q_1b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q_1b"
+            android:textColor="@color/black"
+
+            android:textSize="@dimen/textsize" />
+
+        <RadioButton
+            android:id="@+id/Q_1c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q_1c"
+            android:textColor="@color/black"
+
+            android:textSize="@dimen/textsize" />
+
+        <RadioButton
+            android:id="@+id/Q_1d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q_1d"
+            android:textColor="@color/black"
+
+            android:textSize="@dimen/textsize" />
+    </RadioGroup>
+
+</RelativeLayout>

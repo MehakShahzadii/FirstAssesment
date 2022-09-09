@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Third_page"
+    android:background="@color/teal_700"
+    android:padding="24dp">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total_question"
+        android:text="@string/NumbersOfQuestions"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+    <RadioGroup
+        android:id="@+id/fifthquestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_question"
+        android:layout_marginTop="@dimen/marginTop"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/fifthquestionstatement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/thirdquestion"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/Q_5a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q_5a"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+
+        <RadioButton
+            android:id="@+id/Q_5b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q_5b"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+
+        <RadioButton
+            android:id="@+id/Q_5c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q_5c"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+
+        <RadioButton
+            android:id="@+id/Q_5d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q_5d"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/sixthquestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fifthquestion"
+        android:layout_marginTop="@dimen/marginTop"
+        android:padding="10dp"
+
+        >
+
+        <TextView
+            android:id="@+id/sixthquestionstatement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sixthquestion"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/Q_6a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q_6a"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+
+        <RadioButton
+            android:id="@+id/Q_6b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q_6b"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+
+        <RadioButton
+            android:id="@+id/Q_6c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q_6c"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+
+        <RadioButton
+            android:id="@+id/Q_6d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q_6d"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/grapes"
+            android:text="@string/btnsubmit"
+            android:layout_marginTop="@dimen/marginTop"
+            android:textSize="@dimen/textsize"/>
+    </RadioGroup>
+</RelativeLayout>

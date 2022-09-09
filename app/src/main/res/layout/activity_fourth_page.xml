@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fourth_page"
+    android:padding="24dp"
+    android:background="@color/teal_700">
+
+    <TextView
+        android:id="@+id/seventhquestionstatement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/seventhquestion"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/Q_7a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Q_7a"
+        android:layout_below="@id/seventhquestionstatement">
+
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/Q_7b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Q_7b"
+        android:layout_below="@id/Q_7a">
+
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/Q_7c"
+        android:layout_below="@id/Q_7b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Q_7c">
+
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/Q_7d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Q_7d"
+        android:layout_below="@id/Q_7c">
+
+    </CheckBox>
+    <RadioGroup
+        android:id="@+id/eightthquestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Q_7d"
+        android:layout_marginTop="@dimen/marginTop"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/eighthquestion"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/Q_8a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q_8a"
+            android:textColor="@color/black"
+
+            android:textSize="@dimen/textsize" />
+
+        <RadioButton
+            android:id="@+id/Q_8b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q_8b"
+            android:textColor="@color/black"
+
+            android:textSize="@dimen/textsize" />
+
+        <RadioButton
+            android:id="@+id/Q_8c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q_8c"
+            android:textColor="@color/black"
+
+            android:textSize="@dimen/textsize" />
+
+        <RadioButton
+            android:id="@+id/Q_8d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q_8d"
+            android:textColor="@color/black"
+
+            android:textSize="@dimen/textsize" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop"
+        android:text="@string/btnsubmit"
+        android:textSize="@dimen/textsize"
+        />
+</RelativeLayout>
